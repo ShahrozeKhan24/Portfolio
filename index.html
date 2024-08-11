@@ -1,22 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>SK Portfolio</title>
   </head>
   <body>
-    <div class="container">
-      <div class="item1"></div>
-      <div class="item2"></div>
-      <div class="item3"></div>
-      <div class="item4"></div>
-      <div class="item5"></div>
-      <div class="item6"></div>
-      <div class="item7"></div>
-      <div class="item8"></div>
-      <div class="item9"></div>
-    </div>
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand fw-bold" href="#">Shahroze Khan</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#hero"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-lg-none" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <a class="btn btn-outline-dark d-none d-lg-block" href="#contact"
+            >Let's Talk</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero" id="hero">
+      <div class="container-lg">
+        <div class="row align-items-center">
+          <div class="col-sm-6">
+            <h1 class="display-4 fw-bold">Shahroze Khan</h1>
+            <p>
+              I'm Shahroze Khan, a web developer skilled in UI/UX design,
+              website development, and SEO, crafting effective and engaging
+              digital solutions.
+            </p>
+            <a
+              href="#projects"
+              class="btn btn-outline-dark btn-lg"
+              target="_blank"
+              >Project</a
+            >
+          </div>
+          <div class="col-sm-6 text-center">
+            <img
+              src="./image/7118758_3323617.svg"
+              class="img-fluid hero-img"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="display-5 fw-bold mb-4">Services</h2>
+        <div class="row">
+          <div class="col-lg col-sm-6 mt-4">
+            <div class="card">
+              <i class="bi bi-code"></i>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Custom Website Development</h5>
+                <p class="card-text">
+                  Building tailored websites from scratch, ensuring they meet
+                  specific client needs and industry standards.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg col-sm-6 mt-4">
+            <div class="card">
+              <i class="bi bi-palette"></i>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">UI/UX Design</h5>
+                <p class="card-text">
+                  Designing intuitive and engaging user interfaces that provide
+                  a seamless user experience.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg col-sm-6 mt-4">
+            <div class="card">
+              <i class="bi bi-search"></i>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">SEO Optimization</h5>
+                <p class="card-text">
+                  Enhancing website visibility on search engines through on-page
+                  SEO, keyword research, and content optimization.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="display-5 fw-bold mb-4">About Me</h2>
+        <p>
+          Hi, I'm <strong>Shahroze Khan</strong>, a web developer with a passion
+          for creating beautiful and functional websites. With expertise in
+          Website Development, UI/UX Design, and SEO Optimization, I focus on
+          delivering digital solutions that are both effective and engaging.
+        </p>
+        <p>
+          I combine creativity with technical skills to exceed client
+          expectations and ensure a seamless user experience. Outside of work, I
+          enjoy exploring tech trends and spending time outdoors. Let’s connect
+          and discuss how we can bring your digital ideas to life!
+        </p>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="display-5 fw-bold mb-4">Portfolio</h2>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 mt-4">
+            <div class="card">
+              <img
+                src="./image/Portfolio1.png"
+                class="card-img-top"
+                alt="IlmZar"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">IlmZar</h5>
+                <p class="card-text">
+                  IlmZar offers accessible, high-quality education in Pakistan,
+                  empowering learners with top-notch courses to achieve their
+                  academic and career goals.
+                </p>
+                <a
+                  href="https://ilm-zar.vercel.app/"
+                  class="btn btn-outline-dark"
+                  target="_blank"
+                  >Let's Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mt-4">
+            <div class="card">
+              <img
+                src="./image/Portfolio3.png"
+                class="card-img-top"
+                alt="UrbanNestRealty"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">UrbanNestRealty</h5>
+                <p class="card-text">
+                  UrbanNestRealty is your trusted partner for finding modern,
+                  urban homes. Expert real estate services tailored to your
+                  unique lifestyle and needs.
+                </p>
+                <a
+                  href="https://urban-nest-realty-beryl.vercel.app/"
+                  class="btn btn-outline-dark"
+                  target="_blank"
+                  >Let's Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mt-4">
+            <div class="card">
+              <img
+                src="./image/Portfolio4.png"
+                class="card-img-top"
+                alt="PeakVisor"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">PeakVisor</h5>
+                <p class="card-text">
+                  PeakVisor is a hiking app that uses augmented reality to
+                  identify mountain peaks, provide detailed maps, and enhance
+                  outdoor adventures.
+                </p>
+                <a
+                  href="https://peak-visor.vercel.app/"
+                  class="btn btn-outline-dark"
+                  target="_blank"
+                  >Let's Go</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <h2 class="display-5 fw-bold mb-4">Testimonials</h2>
+        <div
+          id="carouselExample"
+          class="carousel slide carousel-dark carousel-fade"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus mattis orci enim, ac auctor ex iaculis ut. Mauris ut
+                elit mi. Sed nec quam bibendum, congue augue ut, molestie
+                tellus. Fusce vel semper dolor."
+              </p>
+              <h5>John Doe</h5>
+            </div>
+            <div class="carousel-item">
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                at tortor a massa facilisis venenatis sit amet non libero. Etiam
+                vel sem venenatis tellus laoreet feugiat eu in mi."
+              </p>
+              <h5>June Doe</h5>
+            </div>
+            <div class="carousel-item">
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non
+                metus eu sem ultrices tincidunt sit amet ac nisi. In hac
+                habitasse platea dictumst. Aliquam pellentesque diam non eros
+                feugiat maximus."
+              </p>
+              <h5>Johnny Doe</h5>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="display-5 fw-bold mb-4">Contact Me</h2>
+        <div class="row">
+          <div class="col-sm-4 mt-4">
+            <a href="#">sk@gmail.com</a>
+          </div>
+          <div class="col-sm-4 mt-4">
+            <div class="social-media">
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-4 mt-4">
+            <a href="#">+1234567890</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center p-3">
+      <div>© 2024. All Rights Reserved.</div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
